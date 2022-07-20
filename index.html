@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clase.css">
+</head>
+<body>
+<h1 id="titulo">Bienvenidos a Credifacil</h1>
+<h2>Realice una simulacion del prestamo a Solicitar</h2>
+<h2>Realice una simulacion del prestamo a Solicitar</h2>
+
+<p class="parrafo">10000 en 3 pagos</p>
+<p class="parrafo">10000 en 6 pagos</p>
+<p class="parrafo">10000 en 12 pagos</p>
+<p class="parrafo">10000 en 18pagos</p>
+
+<h3>Especifique tipo de ingreso </h3>
+<br>
+<ul>
+    <li> Iten 1: bajo dependencia</li>
+    <li> Iten 2: monotributista</li>
+    <li> Iten 3 : independiente</li>
+</ul> 
+
+
+<div class="presupuesto">
+    <fieldset>
+        <h2>Tipo de Prestamo</h2>
+        <h3>Llene los campos necesarios para poder presupuestar el Prestamo</h3>
+        <hr>
+    <label>Especifique el tipo de Ingreso que Posee</label>
+    <br>
+    <label for="">Tipo de Ingreso</label>
+   <br>
+    <select name=" " id=""> 
+        <option value="">Bajo dependencia</option>  
+        <option value="">Monotributista</option>  
+        <option value="">Independiente</option>  
+        <option value="">Jubilado </option>  
+        <option value="">Pension no Contributiva</option>  
+        <option value="">Con DNI</option> 
+        <br>
+        <hr>
+    </select>
+    <hr>
+    <h2 class ="subtitulo"> Ahora es mas Facil !!!</h2>
+    <label for="">Monto a Solicitar en Pesos</label>
+    <br>
+     <select name=" " id=" montos"> 
+         <option value="">5000</option>  
+         <option value="">10000</option>  
+         <option value="">20000</option>  
+         <option value="">50000</option>  
+         <option value="">100000</option>  
+         <option value="">200000</option> 
+         <br>
+         <hr>
+     </select>
+     <hr>
+
+    <br>
+    <label for="">Ingrese la Cantidad de Cuotas </label><br>
+    <label for="">Elija la Opcion :</label>
+   
+        <option value="">1 pago </option>  
+        <input name="lugar" type="radio">
+        <option value="">3 Cuotas </option> 
+        <input name="lugar" type="radio"> 
+        <option value="">6 Cuotas</option>  
+        <input name="lugar" type="radio">
+        <option value="">12 Cuotas </option>
+        <input name="lugar" type="radio">  
+        <option value="">18 Cuotas</option> 
+        <input name="lugar" type="radio"> 
+        <br>
+      <hr>
+    </fieldset>
+    
+    <br>
+    <label for="">Cuan conocido es para usted nuestra firma</label><br>
+    <input type="range">
+    <br>
+    <label for="">adjuntar Documentacion Requerida</label>
+    <br>
+    <input type="file"><br>
+    <br>
+
+    
+    <label for="">Escriba algun comentario si es necesario</label>
+    <br>
+    <textarea name="" id="" cols="30" rows="5"></textarea>
+    <br>
+    <input type="submit" value=" enviando">
+    <br>
+    <input type="reset" value=" Borrar">
+    <br>
+    <input type="checkbox">
+    <label for="">acepto los terminos</label>
+     <br>   
+  
+    
+    </div>
+
+
+    <script src="clase.js"></script>
+    
+</body>
+</html>
